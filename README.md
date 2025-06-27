@@ -18,7 +18,7 @@ Make sure the following software is installed and available in your environment:
 - `xprof` (a custom pulse profile scoring tool, can be replaced by psrstat or pdmp)
 
 ## Usage
-Make sure 
+Make sure ``get-xprof-filenames.py`` in the same directory  
 
 ```bash
 bash run_giant_pulse_search.sh
