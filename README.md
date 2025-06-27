@@ -15,10 +15,10 @@ Make sure the following software is installed and available in your environment:
 - [**PSRCHIVE**](http://psrchive.sourceforge.net/) (`pam`, `paz`)
 - `bash`, `awk`, `find`
 - `python` (used for the final result extraction)
-- `xprof` (a custom pulse profile scoring tool, can be replaced by psrstat or pdmp)
+- `xprof` (a custom pulse profile scoring tool, can be replaced by `psrstat` or `pdmp`)
 
 ## Usage
-Make sure ``get-xprof-filenames.py`` in the same directory  
+Make sure `get-xprof-filenames.py` in the same directory  
 
 ```bash
 bash run_giant_pulse_search.sh
@@ -35,7 +35,7 @@ pulse_80930723982.zapp 28 5.630466 0.042092 960
 pulse_80930723983.zapp 9 5.652157 0.055533 589
 ```
 
-The colums of the ``xprof.stats`` are:  
+The colums of the `xprof.stats` are:  
 
 1. filename
 2. Pulse width (in bin number)
