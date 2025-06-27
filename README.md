@@ -3,7 +3,7 @@ This repository contains a bash script and supporting tools for processing and a
 
 1. **DM correction and pscrunching** using `pam`
 2. **RFI zapping** using `paz`
-3. **Pulse scoring** using `xprof`
+3. **Giant pulse detection** using `xprof`
 4. **Output formatting** for further analysis
 
 ---
