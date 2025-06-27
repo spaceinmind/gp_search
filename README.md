@@ -18,6 +18,12 @@ Make sure the following software is installed and available in your environment:
 - `xprof` (a custom pulse profile scoring tool, can be replaced by `psrstat` or `pdmp`)
 
 ## Usage
+Before running the pipeline, you'll need `.ar` files created with dspsr   
+
+```bash
+dspsr -K -s -E ../<your_pulsar_par>.par <your_dada>.dada
+```
+
 Make sure `get-xprof-filenames.py` is in the same directory  
 
 ```bash
