@@ -1,5 +1,5 @@
 # 🍑 Giant pulse (GP) search 
-<img src="giantpeach.png" alt="giantpeach" width="350">
+<center> <img src="giantpeach.png" alt="giantpeach" width="350"> </center>
 
 
 This repository contains a Bash- and Python-based pipeline for processing and analyzing radio pulsar data to identify giant pulses. The pipeline performs the following steps:  
