@@ -21,7 +21,7 @@ Make sure the following software is installed and available in your environment:
 Before running the pipeline, you'll need `.ar` files created with dspsr   
 
 ```bash
-dspsr -K -s -E ../<your_pulsar_par>.par <your_dada>.dada
+dspsr -K -s -E ../<your_pulsar_par.par> <your_dada.dada>
 ```
 
 Make sure `get-xprof-filenames.py` is in the same directory  
