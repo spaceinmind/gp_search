@@ -11,7 +11,6 @@ DM=86.8909
 ZAP_RANGES=("651 671" "736 782" "901 920" "934 938" "955 966" "1010 1023")
 XPROF_BIN="${MATTHEW:-/path/to/xprof}"   # Set $MATTHEW env var or override here
 XPROF_OUTPUT="xprof_output.txt"
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 #####################################
 # BEGIN PROCESSING                  #
@@ -68,7 +67,7 @@ for (( chunk = 0; chunk < num_chunks; chunk++ )); do
 done
 
 echo "Step 5: Extracting and formatting xprof results"
-python "$SCRIPT_DIR/get-xprof-filenames.py" | awk '{print $2, $4, $6, $8, $10}' > xprof.stats
+python get-xprof-filenames.py | awk '{print $2, $4, $6, $8, $10}' > xprof.stats
 awk -F'.raw' '{print $1, $2}' xprof.stats > xprof.stats.test
 cp xprof.stats.test xprof.stats
 
