@@ -40,7 +40,7 @@ The colums of the `xprof.stats` are:
 1. filename
 2. Pulse width (in bin number)
 3. Detection SNR
-4. Difference in dispersion measure trail
+4. Difference in dispersion measure trial
 5. Starting bin
 
 
