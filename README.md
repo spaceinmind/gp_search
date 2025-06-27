@@ -1,4 +1,5 @@
-# 🍑 Giant pulse search <img src="giantpeach.png" alt="giantpeach" width="350">
+# 🍑 Giant pulse search 
+<img src="giantpeach.png" alt="giantpeach" width="350">
 
 
 This repository contains a bash script and supporting tools for processing and analyzing radio pulsar data to identify giant pulses. The pipeline performs the following steps:  
