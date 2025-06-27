@@ -1,4 +1,4 @@
-# 🍑 Giant pulse search 
+# 🍑 Giant pulse (GP) search 
 <img src="giantpeach.png" alt="giantpeach" width="350">
 
 
