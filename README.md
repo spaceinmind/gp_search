@@ -17,16 +17,6 @@ Make sure the following software is installed and available in your environment:
 - `python` (used for the final result extraction)
 - `xprof` (a custom pulse profile scoring tool)
 
----
-
-## Repository Contents
-
-- `run_giant_pulse_search.sh` – Main SLURM batch script for the pipeline
-- `get-xprof-filenames.py` – Python script to parse xprof outputs
-- `README.md` – This file
-
----
-
 ## Example Data Layout
 
 Place your `.ar` files in a working directory (e.g., `test2/`) with the following naming scheme:
