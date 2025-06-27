@@ -1,4 +1,4 @@
-<p align="center"># 🍑 Giant pulse (GP) search </p>
+<p align="center"> # 🍑 Giant pulse (GP) search </p>
 <p align="center">
   <img src="giantpeach.png" alt="giantpeach" width="350">
 </p>
