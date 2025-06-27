@@ -24,8 +24,7 @@ Before running the pipeline, you'll need single-pulse `.ar` files created with `
 dspsr -K -s -E <your_pulsar_par.par> <your_dada.dada>
 ```
 
-Make sure `get-xprof-filenames.py` is in the same directory  
-Then, you can run
+Make sure `get-xprof-filenames.py` is in the same directory. Then, you can run
 
 ```bash
 bash run_giant_pulse_search.sh
