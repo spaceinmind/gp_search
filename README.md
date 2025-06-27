@@ -29,8 +29,7 @@ pulse_80930723982.zapp 28 5.630466 0.042092  960
 pulse_80930723983.zapp 9 5.652157 0.055533 589
 ```
 
-The colums of the ```bash
-xprof.stats```
+The colums of the ``xprof.stats``
 are:  
 
 1. filename
