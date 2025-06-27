@@ -25,6 +25,7 @@ dspsr -K -s -E <your_pulsar_par.par> <your_dada.dada>
 ```
 
 Make sure `get-xprof-filenames.py` is in the same directory  
+Then, you can run
 
 ```bash
 bash run_giant_pulse_search.sh
