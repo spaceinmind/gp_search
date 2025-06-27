@@ -17,6 +17,8 @@ Make sure the following software is installed and available in your environment:
 - `python` (used for the final result extraction)
 - `xprof` (a custom pulse profile scoring tool, can be replaced by psrstat or pdmp)
 
+## Usage
+
 ## Example Data Layout
 
 ```csv
