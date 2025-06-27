@@ -15,7 +15,7 @@ Make sure the following software is installed and available in your environment:
 - [**PSRCHIVE**](http://psrchive.sourceforge.net/) (`pam`, `paz`)
 - `bash`, `awk`, `find`
 - `python` (used for the final result extraction)
-- `xprof` (a custom pulse profile scoring tool)
+- `xprof` (a custom pulse profile scoring tool, can be replaced by psrstat or pdmp)
 
 ## Example Data Layout
 
