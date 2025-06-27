@@ -19,7 +19,7 @@ Make sure the following software is installed and available in your environment:
 
 ## Example Data Layout
 
-`` csv
+```csv
 pulse_80930723977.zapp 6 5.454247 -0.045275 983
 pulse_80930723978.zapp 20 5.727708 0.013087 151
 pulse_80930723979.zapp 4 5.098361 -0.064022 412
@@ -27,10 +27,10 @@ pulse_80930723980.zapp 3 5.506632 0.008135 284
 pulse_80930723981.zapp 20 5.256887 0.054118 914
 pulse_80930723982.zapp 28 5.630466 0.042092  960
 pulse_80930723983.zapp 9 5.652157 0.055533 589
-``
+```
 
-The colums of the `` bash
-xprof.stats``
+The colums of the ```bash
+xprof.stats```
 are:  
 
 1. filename
