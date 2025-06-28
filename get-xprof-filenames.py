@@ -1,4 +1,3 @@
-
 import sys
 
 file = open('xprof_output.txt', 'r')
@@ -22,4 +21,3 @@ while True:
         string_to_cr = ""
     
 file.close()
-
